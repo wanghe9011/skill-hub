@@ -30,6 +30,23 @@ Skill Hub 换一种方式：
 - **全部实测过**，每个推荐都经过真实验证
 - **中文原生**，面向中文用户和中文工作场景
 
+## 按类型筛选 Skill
+
+| 分类 | 说明 |
+|------|------|
+| [🔍 搜索与信息获取](./categories/search.md) | 搜索、网页抓取、RSS 监控 |
+| [📝 内容生成与处理](./categories/content.md) | 写作、摘要、翻译、排版 |
+| [📢 发布与分发](./categories/publishing.md) | 社媒发布、多平台同步 |
+| [🎙️ 音视频处理](./categories/audio-video.md) | 转录、TTS、视频处理 |
+| [💻 开发与 DevOps](./categories/development.md) | 代码、Git、CI/CD |
+| [🗂️ 知识管理](./categories/knowledge.md) | 笔记、文档、PDF |
+| [📊 数据与分析](./categories/data-analytics.md) | 数据抓取、监控、报表 |
+| [🌐 浏览器与自动化](./categories/browser-automation.md) | 网页操作、RPA |
+| [🔐 安全与系统](./categories/security-system.md) | 安全检查、系统管理 |
+| [🏠 智能家居](./categories/smart-home.md) | 灯光、音响、设备控制 |
+| [🖼️ 图片与设计](./categories/image-design.md) | 图片生成、编辑、截图 |
+| [📧 沟通与协作](./categories/communication.md) | 邮件、IM、日历 |
+
 ## Skill 评测
 
 每个角色方案中推荐的 Skill，都有独立的评测记录：
