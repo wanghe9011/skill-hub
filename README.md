@@ -1,69 +1,47 @@
 # Skill Hub
 
-OpenClaw Skill 发现 · 评测 · 筛选 · 推荐
+用 OpenClaw 解决你的真实工作问题。
 
-> 只收录亲手验证过的 Skill，拒绝搬运。
+> 不列清单，只给方案。按你的职业，找到最合适的 AI 工具组合。
 
-## 这是什么
+## 选择你的角色
 
-OpenClaw 有大量社区 Skill，但质量参差不齐，中文生态几乎空白。
+| 角色 | 一句话 | 状态 |
+|------|--------|------|
+| [内容创作者](./roles/content-creator.md) | 追热点、写稿、多平台分发 | 🚧 编写中 |
+| [产品经理](./roles/product-manager.md) | 竞品分析、需求文档、用户研究 | 📋 待写 |
+| [独立开发者](./roles/indie-developer.md) | 写代码、管仓库、自动化流程 | 📋 待写 |
+| [运营](./roles/operator.md) | 数据监控、社媒管理、用户运营 | 📋 待写 |
+| [研究员 / 分析师](./roles/researcher.md) | 信息检索、报告撰写、数据分析 | 📋 待写 |
+| [自媒体人](./roles/self-media.md) | 选题、创作、分发、互动 | 📋 待写 |
+| [销售 / BD](./roles/sales.md) | 客户调研、邮件跟进、线索挖掘 | 📋 待写 |
+| [设计师](./roles/designer.md) | 图片生成、素材管理、灵感搜集 | 📋 待写 |
+| [教师 / 培训师](./roles/educator.md) | 课件制作、知识整理、语音合成 | 📋 待写 |
+| [跨境电商](./roles/cross-border.md) | 选品调研、翻译、竞品监控 | 📋 待写 |
 
-Skill Hub 帮你解决四个问题：
+## 这个项目是什么
 
-- **发现** — 去哪找好用的 Skill
-- **评测** — 这个 Skill 到底能不能用
-- **筛选** — 哪个适合我的场景
-- **推荐** — 哪些 Skill 搭配在一起效果好
+市面上有很多 OpenClaw Skill 列表，动辄 5000+ 个链接。但用户看完还是不知道该装哪个。
 
-## 评测标准
+Skill Hub 换一种方式：
 
-每个 Skill 从 6 个维度评分（1-5 分）：
-
-| 维度 | 说明 |
-|------|------|
-| 🔧 可用性 | 能否顺利安装和运行 |
-| 🎯 有效性 | 能否完成描述的功能 |
-| 🛡️ 安全性 | 是否有可疑指令或风险 |
-| 📖 文档质量 | SKILL.md 是否清晰规范 |
-| 🔄 维护状态 | 是否持续更新 |
-| 🌐 中文适配 | 是否支持中文场景 |
-
-详细标准见 [evaluation-criteria.md](./evaluation-criteria.md)
+- **从你的职业出发**，告诉你需要哪些 Skill
+- **给完整方案**，不只是列名字，而是怎么装、怎么配、怎么搭配使用
+- **全部实测过**，每个推荐都经过真实验证
+- **中文原生**，面向中文用户和中文工作场景
 
 ## Skill 评测
 
-| Skill | 一句话 | 评分 | 状态 |
-|-------|--------|------|------|
-| [SearXNG](./skills/searxng.md) | 本地隐私搜索，替代 Brave/Google API | ⭐⭐⭐⭐ | ✅ 已验证 |
-| 更多评测持续更新中... | | | |
+每个角色方案中推荐的 Skill，都有独立的评测记录：
 
-👉 完整列表见 [skills/](./skills/) 目录
+👉 [skills/](./skills/) 目录
 
-## Skill 合集
+评测标准见 [evaluation-criteria.md](./evaluation-criteria.md)
 
-按场景组合推荐，开箱即用：
+## 新手？
 
-| 合集 | 说明 |
-|------|------|
-| 更多合集持续更新中... | |
-
-👉 完整列表见 [packs/](./packs/) 目录
-
-## 新手指南
-
-- [从零开始：怎么安装和使用 Skill](./guides/getting-started.md)
+先看 [从零开始：怎么安装和使用 Skill](./guides/getting-started.md)
 
 ## 贡献
 
-欢迎提交你的 Skill 评测！
-
-- 📝 使用 [评测模板](./skills/_template.md) 提交 PR
-- 🐛 发现问题？提 Issue
-
-详见 [CONTRIBUTING.md](./CONTRIBUTING.md)
-
-## 关于
-
-这个项目是中文 OpenClaw 实战社区的一部分。
-
-目标：让每个中文 OpenClaw 用户都能快速找到真正好用的 Skill。
+欢迎补充你的角色方案或 Skill 评测，详见 [CONTRIBUTING.md](./CONTRIBUTING.md)
